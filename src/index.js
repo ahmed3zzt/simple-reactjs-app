@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import {Nav} from "./components/index";
+import {Hero,OurService,OurTeam} from "./sections/index";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <h1>Ahmed</h1>
+    <>
+    <Nav/>
+    <Hero/>
+    <OurService/>
+    <OurTeam/>
+    </>
 );
-

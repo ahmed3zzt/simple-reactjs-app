@@ -1,0 +1,4 @@
+#burger:checked ~ ul{
+    opacity: 1;
+    height: 100%;
+}
